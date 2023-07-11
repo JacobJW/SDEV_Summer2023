@@ -1,0 +1,16 @@
+## Create a document of your project, what you have completed, what problem you have, and what is your next step.
+# Project Title: Text Arena
+# Desc:
+
+# Completed objectives:
+# - Functional turn system (though the turns are an illusion- the enemy just acts immediately after the player does something. Control always remains with the player.)
+# - 
+
+# Remaining objectives:
+# - Implement the character builder window menu to allow custom player name and class choice.
+# - Improve visuals of all menus
+# - Add enemy pictures to battle window
+# - Replace printing combat log lines to shell with writing logs in labels contained in the battle window
+# - Implement special powers to be used in combat
+## -- Fighter can heal, Wizard can cause randomized magic effect, Ranger can be invisble. 
+# Implement radio buttons on battle window to select between melee/ranged attack, replacing the use of two seperate attack buttons
