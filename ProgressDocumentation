@@ -1,10 +1,14 @@
 ## Create a document of your project, what you have completed, what problem you have, and what is your next step.
 # Project Title: Text Arena
-# Desc:
+# Desc: a very simple turn based combat simulator which places a player against a series of enemies in 1v1 battles. Played through a window with text output to describe each action and numbers to track stats
 
 # Completed objectives:
 # - Functional turn system (though the turns are an illusion- the enemy just acts immediately after the player does something. Control always remains with the player.)
-# - 
+# - Working enemy with very simple automated actions
+# - Created dictionary of 'log scripts' which can output customizeable lines of text that correspond to a set of combat events
+# - Created a few dictionaries to track the stats like health, speed, and damage of different player and enemy classes
+# - Working distance system, in which combatants must use their turns to approach or back away from the opponent. Melee attacks can only be used when close by. Distance is represented by a number, measured in feet
+# - Working combat system where attacks have a chance to miss, deal variable damage within a set range, and where damage is reduced by enemy defense
 
 # Remaining objectives:
 # - Implement the character builder window menu to allow custom player name and class choice.
@@ -13,4 +17,9 @@
 # - Replace printing combat log lines to shell with writing logs in labels contained in the battle window
 # - Implement special powers to be used in combat
 ## -- Fighter can heal, Wizard can cause randomized magic effect, Ranger can be invisble. 
-# Implement radio buttons on battle window to select between melee/ranged attack, replacing the use of two seperate attack buttons
+# - Implement radio buttons on battle window to select between melee/ranged attack, replacing the use of two seperate attack buttons
+# - Add additional monsters to fight after the skeleton.
+# - Add a defense action for all players and monsters, forgoeing an attack or movement but boosting defense against enemy attacks
+
+# Extra objectives- low priority, only add as a bonus if time remains after completing important parts
+# - Add consumable items dropped by enemies which can change the flow of a fight when used (low priority- only add 
