@@ -15,11 +15,11 @@
 # - Improve visuals of all menus
 # - Add enemy pictures to battle window
 # - Replace printing combat log lines to shell with writing logs in labels contained in the battle window
-# - Implement special powers to be used in combat
-## -- Fighter can heal, Wizard can cause randomized magic effect, Ranger can be invisble. 
 # - Implement radio buttons on battle window to select between melee/ranged attack, replacing the use of two seperate attack buttons
 # - Add additional monsters to fight after the skeleton.
 # - Add a defense action for all players and monsters, forgoeing an attack or movement but boosting defense against enemy attacks
 
 # Extra objectives- low priority, only add as a bonus if time remains after completing important parts
-# - Add consumable items dropped by enemies which can change the flow of a fight when used (low priority- only add 
+# - Add consumable items dropped by enemies which can change the flow of a fight when used
+# - Implement special powers to be used in combat
+## -- Fighter can heal, Wizard can cause randomized magic effect, Ranger can be invisble. 
