@@ -1,0 +1,22 @@
+## Create a document of your project, what you have completed, what problem you have, and what is your next step.
+# Project Title: Text Arena
+# Desc: a very simple turn based combat simulator which places a player against a series of enemies in 1v1 battles. Played through a window with text output to describe each action and numbers to track stats
+
+# Completed objectives:
+# - Functional turn system (though the turns are an illusion- the enemy just acts immediately after the player does something. Control always remains with the player.)
+# - Working enemy with very simple automated actions
+# - Created dictionary of 'log scripts' which can output customizeable lines of text that correspond to a set of combat events
+# - Created a few dictionaries to track the stats like health, speed, and damage of different player and enemy classes
+# - Working distance system, in which combatants must use their turns to approach or back away from the opponent. Melee attacks can only be used when close by. Distance is represented by a number, measured in feet
+# - Working combat system where attacks have a chance to miss, deal variable damage within a set range, and where damage is reduced by enemy defense
+# - Implement radio buttons on battle window to select between melee/ranged attack, replacing the use of two seperate attack buttons
+# - Added powers for figher and wizard class. Ranger has no power because rangers need no power (they're too strong as is).
+# - Added character builder to change name and choose class.
+# - Added the goblin as a ranged enemy that flees when in melee range.
+# - Added icons to represent skeleton and goblin enemy.
+# - Added randomly selected enemies to follow after the first skeleton dies. Kill 3 total to win.
+# - Added a second wind mechanic that heals the player a small amount after each enemy defeated.
+
+# Extra objectives- low priority, only add as a bonus if time remains after completing important parts
+# - Add consumable items dropped by enemies which can change the flow of a fight when used
+# - Add more enemy types and extend arena length. 

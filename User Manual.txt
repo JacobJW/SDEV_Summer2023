@@ -1,0 +1,32 @@
+
+TEXT ARENA - USER MANUAL
+Created by Jacob W.
+
+Enter your selected champion into the arena for a series of fights to the death. Survive long enough to defeat 3 enemies in 1 on 1 battles to win the competition and walk out alive.
+
+HOW TO PLAY:
+1. Launch the python file, TextArena_v2.py
+2. Press the blue button labeled "Modify Character" to change your champion's name and pick their class.
+	The FIGHTER class has the best durability and defense of all. Their POWER is the rush attack- dashing forwards a short distance to close the gap between the enemy before attacking.
+	The WIZARD has low durablity and struggles in direct confrontation, but can invoke magical power to cause big effects. Their POWER is to cast a random spell. It might push an enemy away, steal an enemies health,
+		explode into flames, or maybe do nothing.
+	The RANGER has moderate survivability but relies more on their higher speed and long range attacks. They have no special power to activate.
+3. Press the red button labeled "Enter Battle" to start fighting. It will open a Battle Window to control your character and to view important information.
+
+COMBAT MECHANICS:
+You'll begin each fight a random distance away from your opponent. This distance is measured in feet, and displayed on the left of the Battle Window. You can only attack or cast spells on enemies within a limited distance,
+	so you need to use the blue "Move" button to get closer to the enemy. Before pushing the button you'll first need to enter the distance you wish to move in the white entry bar immediately below the button. 
+	You must enter an integer that is no higher than your movement speed (speed is 30 for FIGHTER and WIZARD, but 40 for RANGER). You can enter a negative integer (such as -10) if you wish to move farther from the enemy.
+To attack your enemy, you press the yellow "Attack!" button. Your champion will use their selected weapon to try and hit the enemy, causing damage on a success. Each attack has a chance to miss, ending your turn without
+	doing any damage. To pick which weapon you use to attack, click on one of bubbles under the attack button. Select melee to use a short reaching attack, or click ranged to switch to a weapon to attack from a distance.
+	Each of your champion's weapons have a different maximum distance they can attack from. If the enemy is out of your range, the console will cancel your attack and tell you that range.
+	Tip: Trying to attack with a ranged weapon while too close to your enemy is not a good idea. Ranged attacks have a -25% chance of hitting when within the enemy's melee attack range. Move away before trying to shoot.
+Keep an eye on your health and that of your enemy. Yours is displayed in green at the top of the battle window, and the enemies health is in red right below that. Your attacks reduce the enemy's health, and their attacks
+	will reduce yours. Whoever drops to 0 first will die and lose the fight.
+Once you defeat your current enemy, they will be immediately replaced by a new enemy. Luckily, you'll get a second wind to regain some of your lost health before continueing the fight.
+
+Once you have defeated a total of 3 different enemies (as tracked in the bottom left of the battle window), you'll come out of the arena victorious. Press the red "Quit" button to close the game after winning or losing.
+
+
+FIXING ISSUES:
+If an enemy portrait image is not displaying in the center of the battle window, try unzipping the game folder before running the program. 
